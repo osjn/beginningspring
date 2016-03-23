@@ -86,3 +86,15 @@ java.net.SocketException: Connection reset
 	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:259)
 	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 4 2016-03-24 03:36:38.030
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@7b9359ca)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@65a7bc80)}
+
+!ENTRY org.eclipse.ui 4 4 2016-03-24 03:36:38.043
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@7b9359ca)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@65a7bc80)}
+
+!ENTRY org.eclipse.ui 4 4 2016-03-24 03:36:38.055
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.forwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$2@61c58492)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@4b98c80c)}
+
+!ENTRY org.eclipse.ui 4 4 2016-03-24 03:36:38.066
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.forwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$2@61c58492)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@4b98c80c)}
